@@ -12,14 +12,14 @@ Getting Started To run the web application locally, follow these steps:
     Build and run the backend server using the provided build and run commands.
      The backend server should now be running on a specified port (e.g., 8080).
      DATABASE: Make sure you have PostgreSql driver installed and that you can connect to the db.
-     CHECK MAIN -> CommandLineRunner method to see admin and password.
+     CHECK MAIN (FullstackBackendApplication) -> CommandLineRunner bean to see admin and password (line 44).
     Frontend (React):
      Navigate to the project directory using the command line or terminal. 
     Install the necessary dependencies by running the command: npm install --force (force because of a component called flippy).
      Start the frontend development server using the command: npm run dev.     
        Usage Once the web application is running, users can interact with it using the following features:
     NOTE: TO USE THE CHATGPTIMPLEMENTATION IN HOTEL.jsx add your own OPENAIAPI Key. 
-    The code was written for testing a simple idea and left there. Basically you can ask GPT for info about attraction name, event location and city.
+    The code was written for testing a simple idea and was left there. Basically you can ask GPT for info about attraction name, event location and city.
 
 Search: Enter keywords or specific details related to the desired concert tickets in the search bar to find relevant options. 
 Filter: Apply filters such as date, location, price range, or genre to refine the search results and find specific concert tickets. 
