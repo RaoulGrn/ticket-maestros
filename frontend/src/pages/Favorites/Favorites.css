@@ -1,0 +1,61 @@
+
+
+.cardz{
+    background: linear-gradient(black, #343a40);
+
+    box-shadow: 2px 2px 2px 2px rgba(13, 14, 14, 0.94);
+
+}
+.cardz:hover{
+    cursor:pointer;
+}
+.basic{
+
+}
+
+.backcardz{
+    background: linear-gradient(#1f1f1e, #343a40);
+
+    box-shadow: 2px 2px 2px 2px rgba(13, 14, 14, 0.94);
+}
+.backcardz:hover{
+    cursor:pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+
+
+    .cardz,
+    .backcardz {
+        width: 100%;
+    }
+}
+
+.conti {
+
+    overflow: scroll;
+    scroll-behavior: smooth;
+    height: 100vh;
+    scrollbar-width: thin; /* hide the scrollbar on Firefox */
+    -ms-overflow-style: none; /* hide the scrollbar on Internet Explorer and Edge */
+}
+
+.conti::-webkit-scrollbar {
+    width: 0.5rem; /* adjust the width of the scrollbar as needed */
+}
+
+.conti::-webkit-scrollbar-track {
+    background: linear-gradient(black, #343a40);
+    border-radius: 25px; /* radius of the track */
+}
+
+.conti::-webkit-scrollbar-thumb {
+    background: linear-gradient(black,#343a40);
+    border-radius: 25px; /* radius of the thumb */
+}
+
+.conti::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(black, #343a40);
+
+}

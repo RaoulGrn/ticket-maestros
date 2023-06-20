@@ -1,0 +1,29 @@
+.home-cont{
+
+}
+
+.hplusf{
+    margin: 100px 100px 50px 0px;
+    width:100%;
+    min-width:50%;
+
+}
+
+.featured-div{
+    display:flex;
+    justify-content: space-around;
+
+}
+
+@media screen and (max-width: 768px) {
+    .hplusf {
+     width: 100%;
+
+    }
+
+    .featured-div {
+        flex-wrap: wrap;
+    }
+
+
+}

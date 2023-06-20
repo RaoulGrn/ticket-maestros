@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60b97336-893e-4db0-bbfd-a0ed1d0fbf7c" name="Changes" comment="[Team] commit fixed email payload">
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/featured/Featured.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/featured/Featured.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modals/LoginModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/LoginModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modals/RegisterModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/RegisterModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/modals/SeatmapModal.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/modals/SeatmapModal.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/publicNavbar/PublicNavbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/publicNavbar/PublicNavbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Favorites/Favorites.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Favorites/Favorites.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/admin/AdminPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/admin/AdminPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/aitest/AiTest.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/aitest/AiTest.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/cart/Cart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/cart/Cart.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/hotel/Hotel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/hotel/Hotel.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/AuthContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/AuthContext.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/util/PaymentValidators.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/PaymentValidators.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Q97IplHdrd3Nh0yJnuvLuEeIGl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "raoul",
+    "javascript.nodejs.core.library.configured.version": "18.16.0",
+    "javascript.nodejs.core.library.typings.version": "18.16.0",
+    "last_opened_file_path": "C:/Users/Raoul/WebstormProjects/parley-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="main.jsx" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main.jsx" working-dir="$PROJECT_DIR$/src">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.main.jsx" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60b97336-893e-4db0-bbfd-a0ed1d0fbf7c" name="Changes" comment="" />
+      <created>1684753866540</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684753866540</updated>
+      <workItem from="1684753867605" duration="688000" />
+      <workItem from="1684755817901" duration="4000" />
+      <workItem from="1684919377666" duration="8131000" />
+      <workItem from="1685006317194" duration="21967000" />
+      <workItem from="1685082179313" duration="2249000" />
+      <workItem from="1685784242673" duration="11000" />
+      <workItem from="1685809767571" duration="32845000" />
+      <workItem from="1686561590728" duration="3393000" />
+      <workItem from="1686570845022" duration="3844000" />
+      <workItem from="1686575282208" duration="19070000" />
+      <workItem from="1686646165219" duration="10237000" />
+      <workItem from="1686739664431" duration="14285000" />
+      <workItem from="1686823445635" duration="17888000" />
+      <workItem from="1686964217191" duration="1195000" />
+      <workItem from="1687077135551" duration="7195000" />
+      <workItem from="1687262045991" duration="1244000" />
+    </task>
+    <task id="LOCAL-00001" summary="[Team] commit change color on click heartIcon">
+      <created>1685012070538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685012070538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Team] commit storage of selected favorites">
+      <created>1685012530314</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685012530314</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Team] commit favorites fetch from db and page design">
+      <created>1685029125376</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685029125376</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Team] commit basic contact page">
+      <created>1686753722022</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1686753722023</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Team] commit changes for loginModal registerModal, contact and visual improvements and responsiveness">
+      <created>1686836100141</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1686836100141</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[Team] commit fixed generated code for each shopping cart item">
+      <created>1686844278678</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1686844278678</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[Team] commit fixed email payload">
+      <created>1686845615270</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686845615270</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Changes by cristi : commit email payload fixed">
+      <created>1686845639450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686845639450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Team] commit change color on click heartIcon" />
+    <MESSAGE value="[Team] commit storage of selected favorites" />
+    <MESSAGE value="[Team] commit favorites fetch from db and page design" />
+    <MESSAGE value="[Team] commit basic contact page" />
+    <MESSAGE value="[Team] commit changes for loginModal registerModal, contact and visual improvements and responsiveness" />
+    <MESSAGE value="[Team] commit fixed generated code for each shopping cart item" />
+    <MESSAGE value="[Team] commit fixed email payload" />
+    <MESSAGE value="Changes by cristi : commit email payload fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes by cristi : commit email payload fixed" />
+  </component>
+</project>

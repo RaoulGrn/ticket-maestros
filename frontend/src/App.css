@@ -1,0 +1,20 @@
+#root {
+
+  background: linear-gradient(#0e0e0e, #343a40);
+
+  margin: 0 auto;
+  padding: 0;
+
+}
+/*.foot{
+
+  margin-left:200px;
+}*/
+
+
+@media screen and (max-width: 576px) {
+body{
+
+}
+
+}
