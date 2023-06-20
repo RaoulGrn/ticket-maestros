@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "rsa",
+      "type": "com.codecool.ticketmstr.config.RsaKeyProperties",
+      "sourceType": "com.codecool.ticketmstr.config.RsaKeyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "rsa.private-key",
+      "type": "java.security.interfaces.RSAPrivateKey",
+      "sourceType": "com.codecool.ticketmstr.config.RsaKeyProperties"
+    },
+    {
+      "name": "rsa.public-key",
+      "type": "java.security.interfaces.RSAPublicKey",
+      "sourceType": "com.codecool.ticketmstr.config.RsaKeyProperties"
+    }
+  ],
+  "hints": []
+}
