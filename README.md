@@ -20,7 +20,7 @@ Getting Started To run the web application locally, follow these steps:
     Install the necessary dependencies by running the command: npm install --force (force because of a component called flippy).
      Start the frontend development server using the command: npm run dev.     
        Usage Once the web application is running, users can interact with it using the following features:
-    NOTE: TO USE THE CHATGPTIMPLEMENTATION IN HOTEL.jsx add your own OPENAIAPI Key. 
+    NOTE: TO USE THE OPEN_AI API integration IN HOTEL.jsx (the three green buttons) add your own OPENAIAPI Key. 
     The code was written for testing a simple idea and was left there. Basically you can ask GPT for info about attraction name, event location and city.
 
 Search: Enter keywords or specific details related to the desired concert tickets in the search bar to find relevant options. 
