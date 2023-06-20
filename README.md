@@ -1,7 +1,9 @@
 # ticket-maestros
 
 This project is a web application built with React and Java Spring that allows users to search, filter, and buy concert tickets.
+
  Users can search for their desired concert tickets, apply filters to refine their search, and view the available options displayed in a card format.
+ 
  Once users have found the ticket they want to purchase, they can proceed to make the payment directly on the site.
 
 Getting Started To run the web application locally, follow these steps:
