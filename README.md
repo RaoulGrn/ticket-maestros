@@ -6,7 +6,7 @@ This project is a web application built with React and Java Spring that allows u
  
  Once users have found the ticket they want to purchase, they can proceed to make the payment directly on the site.
 
-Getting Started To run the web application locally, follow these steps:
+## Getting Started To run the web application locally, follow these steps:
 
 
     Backend (Java Spring): 
