@@ -13,7 +13,7 @@ Getting Started To run the web application locally, follow these steps:
      Open the project in your preferred Java development environment.
     Build and run the backend server using the provided build and run commands.
      The backend server should now be running on a specified port (e.g., 8080).
-     DATABASE: Make sure you have PostgreSql driver installed and that you can connect to the db.
+     DATABASE: Make sure you have PostgreSql driver installed and that you can connect to the db (check application.properties).
      CHECK MAIN (FullstackBackendApplication) -> CommandLineRunner bean to see admin and password (line 44).
     Frontend (React):
      Navigate to the project directory using the command line or terminal. 
