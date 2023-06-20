@@ -22,9 +22,13 @@ Getting Started To run the web application locally, follow these steps:
     The code was written for testing a simple idea and was left there. Basically you can ask GPT for info about attraction name, event location and city.
 
 Search: Enter keywords or specific details related to the desired concert tickets in the search bar to find relevant options. 
+
 Filter: Apply filters such as date, location, price range, or genre to refine the search results and find specific concert tickets. 
+
 Card Display: View the available concert tickets in a card format, with essential information such as artist, venue, date, and price. 
+
 Ticket Selection: Select the desired ticket from the available options and proceed to the checkout process.
+
  Payment: Complete the payment process directly on the site to finalize the ticket purchase.
 
 Contributing Contributions to this web application project are welcome! If you have any suggestions, bug fixes, or new features to propose, please submit a pull request.
