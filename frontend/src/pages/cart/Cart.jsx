@@ -5,6 +5,7 @@ import {Button, Modal} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faUser} from "@fortawesome/free-solid-svg-icons";
 import {validateCardCw, validateCardDate, validateCardNumber} from "../../util/PaymentValidators.jsx";
+import {QrCode} from "./QrCode.jsx";
 
 
 const MyComponent = () => {
@@ -121,7 +122,9 @@ const MyComponent = () => {
 
 
 
-            setShowModal(!showModal);
+            setTimeout(() => {
+                setShowModal(!showModal);
+            }, 300);
             console.log("Submitting card data:", cardData);
 
             const token = JSON.parse(localStorage.getItem('token')).jwt || null;
@@ -133,6 +136,7 @@ const MyComponent = () => {
                         Authorization: `Bearer ${token}`,
                     },
             });
+
 
 
         } else {
@@ -297,20 +301,21 @@ const MyComponent = () => {
                     </div>
                 </div>
             </div>
-            <Modal show={showModal} className={"modalz bg-dark-50 "} onHide={closeModal}>
-                <Modal.Header className={"bg-dark"} closeButton>
+            <Modal show={showModal} className={"bg-dark-50"} onHide={closeModal}>
+                <Modal.Header className={"bg-dark"}>
                     <Modal.Title className={"bg-dark text-success"}>Success!</Modal.Title>
                 </Modal.Header>
-                <Modal.Body className={"bg-dark text-white"}>
+                <Modal.Body className={"bg-dark text-white"}  >
                     {data.map((item) => (
                         <div key={item.id}>
                             <p>
                                 <strong>Item:</strong> {item.name}
                                 <br />
-                                <strong>Code:</strong> {generateRandomCode()}
                             </p>
+                            <QrCode className={"w-25 h-25"} randomCode={generateRandomCode()} />
                             <hr className="my-3" />
                         </div>
+
                     ))}
                     <p>Save them and do not share them until the event, where you will be asked to show them upon entry.</p>
                 </Modal.Body>
@@ -320,6 +325,7 @@ const MyComponent = () => {
                     </Button>
                 </Modal.Footer>
             </Modal>
+
         </div>
     );
 };
