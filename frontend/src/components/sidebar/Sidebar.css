@@ -13,11 +13,20 @@
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 910px) {
     .sidebar {
 
         position:sticky;
-    }}
+        width:25% !important;
+
+    }
+    .sd-nav{
+        position:sticky;
+        width:55% !important;
+        border-radius:20px !important;
+    }
+
+}
 
 
 

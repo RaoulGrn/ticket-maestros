@@ -9,6 +9,7 @@ import React from 'react';
                 <p>Email: info@ticketmaestros.com</p>
                 <p>Phone: +40 747 666 444</p>
                 <p>Address: Sector 2, Buc</p>
+                <p>NO REFUNDS!</p>
             </div>
         </div>
     );

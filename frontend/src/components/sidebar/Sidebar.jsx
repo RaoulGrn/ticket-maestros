@@ -25,8 +25,8 @@ import {useAuthContext} from "../../util/AuthContext.jsx";
                  setPath(selected);
              }}
          >
-             <SideNav.Toggle />
-             <SideNav.Nav  defaultSelected="/home">
+             <SideNav.Toggle  />
+             <SideNav.Nav className={"sd-nav"}  defaultSelected="/home">
                  <NavItem eventKey="">
                      <NavIcon>
                          <Link to={"/"}><FontAwesomeIcon icon={faHome}/></Link>
@@ -42,14 +42,7 @@ import {useAuthContext} from "../../util/AuthContext.jsx";
                      <NavText>Favorites
                      </NavText>
                  </NavItem>
-                 <NavItem eventKey="/history">
-                     <NavIcon>
-                         <Link to={path}><FontAwesomeIcon icon={faHistory}/></Link>
-                     </NavIcon>
-                     <NavText>
-                         History
-                     </NavText>
-                 </NavItem>
+
                  <NavItem eventKey="/api/cart">
                      <NavIcon>
                          <Link to={path}><FontAwesomeIcon icon={faCartShopping}/></Link>

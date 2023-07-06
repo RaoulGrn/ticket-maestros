@@ -56,7 +56,7 @@ const MyComponent = ({setCityName,venues,setStartDateTime,setEndDateTime}) => {
                 </div>
 
                 <div>
-                    <button className={"w-100 bg-success"} style={{transform:"translateX(-85px)"}} onClick={() =>  {
+                    <button className={"w-100 bg-success"}  onClick={() =>  {
                         setStartDateTime(format(date[0].startDate,"yyyy-MM-dd")+"T08:00:00Z")
                         setEndDateTime(format(date[0].endDate,"yyyy-MM-dd") + "T01:00:00Z")
                         console.log(format(date[0].startDate,"yyyy-MM-dd"),format(date[0].endDate,"yyyy-MM-dd"))}}>

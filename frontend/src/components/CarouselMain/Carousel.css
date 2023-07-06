@@ -1,18 +1,20 @@
 .carouselz{
     position:relative;
     width:100%;
-
+    border-radius:25px !important;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 915px) {
 
 
     .carouselz{
 
-       width:100%;
+       min-width:100%;
 
         margin-top:0;
-        padding:0;
+        padding:40px;
+        border-radius:0px !important;
+
     }
 
 }

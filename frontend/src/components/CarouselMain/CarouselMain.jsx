@@ -9,7 +9,7 @@ const MyComponent = () => {
             <Carousel  className="carouselz mb-5">
                 <Carousel.Item>
                     <video
-                        style={{minWidth: "100%", minHeight: "100%", borderRadius: "25px"}}
+                        style={{minWidth: "100%", minHeight: "100%"}}
                         playsInline
                         autoPlay
                         muted

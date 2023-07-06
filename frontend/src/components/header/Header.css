@@ -2,3 +2,12 @@
  width:100%;
 
 }
+
+
+@media screen and (max-width: 900px) {
+ .headz{
+  width:100%;
+
+ }
+
+}

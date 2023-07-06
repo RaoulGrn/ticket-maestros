@@ -35,13 +35,12 @@ function App() {
                         path="/favorites"
                         element={
                             <>
-                                <Sidebar />
                                 <Navbar />
+                                <Sidebar />
                                 <Favorites />
                             </>
                         }
                     />
-                    <Route path="/history" element={[<Navbar/>,<Sidebar/>,<History />,<Footer/>]} />
                     <Route path="/api/cart" element={[<Navbar/>,<Sidebar/>,<Cart />,<Footer/>]} />
                     <Route path="/user/info" element={[<Navbar/>,<Sidebar/>,<User />,<Footer/>]} />
                    <Route path="/contact" element={[<Navbar/>,<Sidebar/>,<Contact />,<Footer/>]} />

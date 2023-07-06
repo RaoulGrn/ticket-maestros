@@ -13,6 +13,7 @@
 
 }
 
+
 .backcardz{
     background: linear-gradient(#1f1f1e, #343a40);
 
@@ -26,9 +27,14 @@
 @media screen and (max-width: 768px) {
 
 
-    .cardz,
+    .cardz{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+
     .backcardz {
         width: 100%;
+
     }
 }
 

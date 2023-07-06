@@ -203,12 +203,12 @@ const Featured = () => {
 
     console.log(favorites)
     return (
-        <Container >
+        <Container  >
             <BasicSearch className={"basic"} setCityName={setCityName} venues={venues} setStartDateTime={setStartDateTime} setEndDateTime={setEndDateTime} ></BasicSearch>
-            <Row className="row-1 justify-content-md-center">
+            <Row className="row-1  justify-content-sm-evenly">
                 {venues.map((e, index) =>{
                     return(
-                        <Col md="3" className="p-4" key={e.id}>
+                        <Col md="6" sm="2" lg="3" className="p-4" key={e.id}>
                             <Flippy
                                 className="flipper"
                                 flipOnHover={false} // default false
@@ -217,9 +217,9 @@ const Featured = () => {
                                  // to use toggle method like ref.current.toggle()
                                 // if you pass isFlipped prop component will be controlled component.
                                 // and other props, which will go to div
-                                style={{ width: '300px', height: '550px' }} /// these are optional style, it is not necessary
+                                style={{ width: '300px', height: '550px', marginBottom:'200px' }} /// these are optional style, it is not necessary
                             >
-                                <FrontSide >
+                                <FrontSide className={""} >
                                     <Card className={"cardz text-white"} style={{ width: '300px', height: '550px' }}>
                                         <Card.Img variant="top" src={e.images && e.images[6] !== undefined ? e.images[0].url : "https://png.pngitem.com/pimgs/s/287-2876527_uncle-mike-s-qd115-ns-circle-hd-png.png"} />
                                         <Card.Body>

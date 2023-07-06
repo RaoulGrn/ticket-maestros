@@ -1,6 +1,7 @@
 .featured{
    border-radius:30%;
    width:50%;
+
 }
 
 .cardz{
@@ -23,7 +24,7 @@
  }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .cardz,
     .backcardz,
     .flipper,
@@ -31,6 +32,8 @@
         width:100%;
         scroll-behavior:smooth;
         margin-bottom: 20px;
+        top: 0;
+        right: -15px;
     }
 
 }

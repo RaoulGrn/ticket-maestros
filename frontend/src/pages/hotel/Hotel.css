@@ -2,14 +2,29 @@
 
     width: 100%;
     margin: 0 auto; /* Center the carousel horizontally */
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
     .carousel-container {
-        width: 60%;
+        min-width: 100%;
+
     }
     .btn-container {
         zoom :0.8;
+        min-width: 100%;
+    }
+
+    .carousel-container .carousel-item {
+        font-size:12px !important;
+
+
+
+    }
+    .generated-text {
+        margin-top: 20px;
+        text-align: center;
+        font-size:11px !important;
     }
 }
 
