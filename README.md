@@ -37,3 +37,11 @@ Ticket Selection: Select the desired ticket from the available options and proce
 Payment: Complete the payment process directly on the site to finalize the ticket purchase.
 
 Contributing Contributions to this web application project are welcome! If you have any suggestions, bug fixes, or new features to propose, please submit a pull request.
+
+### DEMO PHOTOS
+
+
+![ticketmaestro4](https://github.com/RaoulGrn/ticket-maestros/assets/108396853/38a0c5f5-0c7a-48fa-a659-34b1528066ed)
+![ticketmaestro3](https://github.com/RaoulGrn/ticket-maestros/assets/108396853/774a2d9f-3a37-42fd-be3a-b37ac56a1910)
+![ticketmaestro2](https://github.com/RaoulGrn/ticket-maestros/assets/108396853/cb575ee4-24bc-409d-8f3f-40b885448f13)
+![ticketmaestro1](https://github.com/RaoulGrn/ticket-maestros/assets/108396853/2dddf08a-943c-49f5-adcf-2fdff43d43c9)
